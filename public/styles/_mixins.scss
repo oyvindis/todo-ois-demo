@@ -1,0 +1,52 @@
+@mixin trans($what: all, $time: .3s) {
+  transition: $what $time cubic-bezier(0.77, 0, .175, 1);
+}
+
+@mixin h1() {
+  color: #385988;
+  font-size: 5em;
+  font-weight: 800
+}
+
+@mixin h2() {
+  color: #6c6c6c;
+  font-size: 3em;
+  text-transform: uppercase
+}
+
+@mixin h3() {
+  color: #FF6C2F;
+  font-size: 2em;
+  text-transform: none
+}
+
+@mixin h4() {
+  color: #6c6c6c;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  padding: 7px 0
+}
+
+@mixin h5() {
+  color: #385988;
+  font-size: 1.5em;
+  font-style: italic
+}
+
+@mixin h6() {
+  color: #FF6C2F
+}
+
+@mixin p() {
+  font-family: $font-1;
+  color: #3c3c3c;
+  margin: 0 0 10.5px
+}
+
+@mixin center() {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+

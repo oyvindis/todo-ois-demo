@@ -1,0 +1,117 @@
+body {
+  font-family: $font-1 !important;
+}
+
+a.menu-burger {
+  background-color: $acando-orange !important;
+  color: white !important;
+  margin-right: 10px;
+  border-radius: 0;
+}
+
+.menu-well {
+  top: 52px;
+  position: absolute !important;
+  background-color: #f8f8f8;
+  z-index: 999 !important;
+  margin-bottom: 20px;
+  background-image: linear-gradient(to bottom, #fff 0, #f8f8f8 100%);
+  background-repeat: repeat-x;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, .15), 0 1px 5px rgba(0, 0, 0, .075);
+  border-width: 0 1px 1px;
+  border-color: rgb(231, 231, 231);
+  border-style: solid;
+
+}
+
+.nav-pills > li > a {
+  color: $acando-orange !important;
+  border-radius: 0;
+}
+
+.nav-pills > li.active > a {
+  background-color: $acando-orange !important;
+  color: white !important;
+  border-radius: 0;
+}
+
+.spacer {
+  height: 100px;
+}
+
+input.user-name {
+  text-transform: uppercase;
+}
+
+.jumbo-name {
+  text-align: center;
+}
+
+.knett-result {
+
+  margin-top: 10px;
+
+  & ul {
+    list-style: none;
+
+    & li {
+      margin-bottom: 10px;
+
+      & .news-card {
+        padding: 20px;
+        margin: 20px 0;
+        border: 1px solid #eee;
+        border-left-width: 5px;
+        border-radius: 3px;
+        border-left-color: $acando-orange;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.18);
+        animation-timing-function: cubic-bezier(0.230, 1.000, 0.320, 1.000);
+        align-items: center;
+
+        & .img {
+          float: left;
+          display: block;
+        }
+
+        & .details {
+          margin-left: 100px;
+          padding-top: 20px;
+
+          & .likes {
+            float: right;
+            font-size: larger;
+          }
+        }
+      }
+
+      & .phone-card {
+        padding: 20px;
+        margin: 20px 0;
+        border: 1px solid #eee;
+        border-left-width: 5px;
+        border-radius: 3px;
+        border-left-color: $acando-orange;
+
+        & .img {
+          float: left;
+          display: block;
+          margin-right: 20px;
+
+          & .placeholder {
+            font-size: 6em;
+          }
+        }
+
+        & .details {
+          margin-left: 100px;
+          padding-top: 20px;
+
+          & .full-name {
+            font-weight: bold;
+            font-size: 1.5em;
+          }
+        }
+      }
+    }
+  }
+}
