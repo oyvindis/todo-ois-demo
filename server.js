@@ -11,7 +11,6 @@ var publicPath = path.resolve(__dirname, 'public');
 
 app.use(express.static(publicPath));
 
-/*
 if (!isProduction) {
     var bundle = require('./server/bundle.js');
     bundle();
@@ -21,7 +20,7 @@ if (!isProduction) {
         });
     });
 }
-*/
+
 
 app.get('*.png', function (req, res) {
     res.sendFile(publicPath + req.path);
