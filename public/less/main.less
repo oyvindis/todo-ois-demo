@@ -15,8 +15,8 @@
         font-size: 30px
       }
     }
-    .make-sm-column(2);
-    .make-md-column(3);
+    
+    .make-lg-column(3);
   }
   .content-area {
     line-height: 1.2em;
@@ -29,9 +29,23 @@
         font-size: 40px;
       }
     }
-    .make-sm-column(8);
-    .make-md-column(6);
+    .make-sm-column(12);
+    .make-lg-column(6);
   }
+  .sidebar_right {
+    padding: 20px;
+    @media(min-width: @screen-desktop) {
+      padding: 30px;
+    }
+    h2 {
+      font-size: 20px;
+      @media(min-width: @screen-desktop) {
+        font-size: 30px
+      }
+    }
+    .make-sm-column(12);
+    .make-lg-column(3);
+  }  
 }
 
 .spacer {
