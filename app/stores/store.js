@@ -1,7 +1,7 @@
 'use strict';
 
 import Reflux from 'reflux';
-import Firebase from 'Firebase';
+import Firebase from 'firebase';
 import ReactFireMixin from 'reactfire';
 import {AddItem, AddItemDescription, ConfirmTodo} from '../actions/mainActions.js';
 
