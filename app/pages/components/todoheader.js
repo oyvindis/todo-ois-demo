@@ -26,7 +26,7 @@ export default React.createClass({
         return (
             <div>
 
-                <h1>Todo</h1>
+                <h1>Todos</h1>
                 <input id="new-todo" placeholder="Legg til element..." autoFocus onKeyUp={this.handleValueChange}/>
 
             </div>            
